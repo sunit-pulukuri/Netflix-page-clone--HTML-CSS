@@ -1,0 +1,404 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+.main{
+    /* to add the background image */
+    background-image: url("images/topBackground.jpg");
+    background-position: center center;
+    background-size: max(1000px, 100vw);
+    height: 100vh;
+    position: relative;
+    z-index: 133;
+}
+.main .box{
+    height: 100vh;
+    width: 100%;
+    opacity: 0.70;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    top: 0;
+    z-index: -12;
+}
+nav{
+    height: 60px;
+    max-width: 80vw;
+    
+    margin:auto;
+    display: flex;
+    z-index: 10;
+    /* background: red; */
+    align-items: center;
+    justify-content: space-between;
+}
+nav img{
+    color: red;
+    width: 120px;
+}
+.topText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 30px;
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: center;
+    gap: 4px;
+    /* border: 2px solid red; */
+    flex-direction: column;
+    position: relative;
+    /* position: absolute;  */
+    color: white;
+    height: calc(100% - 60px);
+    font-family: "Martel Sans", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  
+}
+
+.topTextButtons{
+    /* width: 1300px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: column; */
+    padding: 0px;
+    
+}
+
+.topText> :nth-child(1){
+    font-weight: 900;
+    font-size: 48px;
+    text-align: center;
+}
+.topText> :nth-child(2){
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+.topText> :nth-child(3){
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+.separation{
+    background-color: rgb(62, 61, 61);
+    height: 5px;
+    position: relative;
+    width: 100%;
+}
+
+.btn{
+    
+    background-color: rgba(23,23,23,0.2);
+    border: 1px solid rgba(23,23,23,0.2);
+    /* background-color: white; */
+    color: white;
+    padding: 5px 25px;
+    /* font-weight: ; */
+    border: 1px solid rgba(251, 251, 251, 0.2);
+    border-radius: 3px;
+    /* margin-right:20px ; */
+}
+.btn-red-sn{
+    /* margin-top: 10px; */
+    padding: 5px 12px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+
+.btn:hover{
+    opacity: 0.4;
+    cursor: pointer;
+}
+.btn-red:hover{
+    opacity: 0.4;
+    cursor: pointer;
+}
+.btn-red-sn:hover{
+    opacity: 0.4;
+    cursor: pointer;
+}
+.btn-red{
+    margin-top: 10px;
+    padding: 5px 40px;
+    color: white;
+    font-size: 26px;
+    font-weight:400;
+    border: none;
+    border-radius: 3px;
+    background-color: red;
+    margin-left:10px ;
+    margin-right:10px ;
+}
+
+.main input{
+    margin-top: 9px;
+    padding: 2px 44px 14px 2px;
+    font-size: 18px;
+    font-weight:400;
+    background-color: rgba(23,23,23,0.2);
+    border: 1px solid rgba(196, 194, 194, 0.2);
+    margin-left:10px ;
+    margin-right:10px ;
+    color: white;
+}
+
+.secondSection{
+    
+    margin-top: 22px;
+    /* border: 3px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.secondSection p{
+    z-index: 123;
+    color: white;
+    /* border: 2px solid white; */
+    width: 450px;
+    
+  /* font-weight: 600; */
+}
+.tvImage{
+    position: relative;
+    /* border: 2px solid red; */
+    
+}
+.tvImage video {
+    position: absolute;
+    left: 87px;
+    bottom: 139px;
+    z-index: -12;
+    width: 196px;
+}
+.tvImage img {
+    width: 364px;
+}
+
+.x{
+    margin-bottom: 30px;
+    line-height: 51px;
+    font-weight: 900;
+    font-style: normal;
+    font-family: "Martel Sans", sans-serif;
+    font-weight: 900;
+    font-size: 48px;
+    /* text-align: center; */
+
+}
+.y{
+    gap:12px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Martel Sans", sans-serif;
+    /* font-weight: 900; */
+    font-size: 24px;
+    /* text-align: center; */
+
+}
+.ss{
+    position: absolute;
+    
+    z-index: -12;
+    width: 319px;
+    left: 57px;
+    top: -83px;
+}
+.thirdSection{
+    margin-top: 22px;
+    /* border: 3px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.fourthSection{
+    margin-top: 22px;
+    /* border: 3px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.fourthSection p{
+    z-index: 123;
+    color: white;
+    /* border: 2px solid white; */
+    width: 450px;
+    
+  /* font-weight: 600; */
+}
+.thirdSection p{
+    z-index: 123;
+    color: white;
+    /* border: 2px solid white; */
+    width: 450px;
+    
+  /* font-weight: 600; */
+}
+
+.thirdSection .tvImage> :nth-child(2){
+    position: absolute;
+    top: -50px;
+    width: 425px;
+    height: 460px;
+    padding:0px 0px ;
+    left: 47px;
+}
+.fourthSection .tvImage> :nth-child(2) {
+    position: absolute;
+    top: -50px;
+    width: 312px;
+    height: 390px;
+    padding: 0px 0px;
+    left: 47px;
+}
+
+.faq {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.faq h2{
+    color:white;
+    margin: auto;
+    /* margin-top: 12px; */
+    font-family: "Martel Sans", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 48px;
+}
+.faqList{
+    display: flex;
+    flex-direction: column;
+}
+.faqList span{
+    color: white;
+    font-family: "Martel Sans", sans-serif;
+    font-weight: 260px;
+    font-style: normal;
+    font-size: 24px;
+    background-color: rgb(63, 62, 62);
+    margin-bottom: 8px;
+    width: 70vw;
+    padding: 18px;
+}
+.faqList  span:hover{
+    opacity: 0.4;
+    cursor: pointer;
+}
+
+@media screen and (max-width:889px)
+{
+    .topTextButtons{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .thirdSection p{
+        width: 262px;
+    }
+    .fourthSection p{
+        width: 262px;
+    }
+    .secondSection p{
+        
+        width: 262px;
+    }
+
+    .faq h2 {
+        margin-left: 51px;
+        color: white;
+        /* margin: auto; */
+        /* margin-top: 12px; */
+        font-family: "Martel Sans", sans-serif;
+        font-weight: 900;
+        font-style: normal;
+        font-size: 48px;
+    }
+    .secondSection{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .thirdSection{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .fourthSection{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .faq h2 {
+            width: 118px;
+            /* margin-left: 250px;s */
+            color: white;
+            /* margin: auto; */
+            /* margin-top: 12px; */
+            font-family: "Martel Sans", sans-serif;
+            font-weight: 900;
+            font-style: normal;
+            font-size: 48px;
+        }
+    
+    
+}
+@media only screen and (max-width:281px){
+    
+    nav {
+        height: 60px;
+        max-width: 80vw;
+        margin: auto;
+        display: flex;
+        z-index: 10;
+        /* background: red; */
+        align-items: center;
+        flex-direction: column;
+        /* flex-wrap: wrap; */
+        justify-content: space-between;
+    }
+    
+    .topText{
+        height: 800px;
+        width: 115vw;
+
+    }
+    .box{
+        height: 800px;
+    }
+    .tvImage video {
+        position: absolute;
+        left: 72px;
+        bottom: 110px;
+    
+        z-index: -12;
+        width: 162px;
+    }
+    .tvImage img {
+        width: 297px 
+    
+    }
+    .fourthSection .tvImage> :nth-child(2) {
+        position: absolute;
+        top: 29px;
+        width: 206px;
+        height: 155px;
+        padding: -33px 0px;
+        left: 47px;
+    }
+}
